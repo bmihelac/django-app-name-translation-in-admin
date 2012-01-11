@@ -1,6 +1,7 @@
 {% extends "admin/base_site.html" %}
 {% load adminmedia admin_list i18n %}
 {% load url from future %}
+{% load i18n_app %}
 {% block extrastyle %}
   {{ block.super }}
   <link rel="stylesheet" type="text/css" href="{% admin_media_prefix %}css/changelists.css" />
@@ -43,8 +44,8 @@
       </a>
        &rsaquo;
        <a href="../">
-         {% trans app_label|capfirst %}
-      </a>
+         {{ app_label|trans_app }}
+       </a>
       &rsaquo;
       {{ cl.opts.verbose_name_plural|capfirst }}
     </div>
