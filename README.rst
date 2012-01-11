@@ -38,5 +38,5 @@ Related tickets:
 
 * `Ticket #10436 - Application names i18n in the admin app broken<https://code.djangoproject.com/ticket/10436>`_
 
-* this `thread <https://groups.google.com/d/msg/django-users/-Py-JeMyfF0/lm7lgzlyWu8J>`
+* this `thread <https://groups.google.com/d/msg/django-users/-Py-JeMyfF0/lm7lgzlyWu8J>`_
 
