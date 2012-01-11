@@ -19,14 +19,16 @@ Configuration and usage
            ...
         )
 
-2. Define the app names and mark them for translations. Use cap first names.
+2. Define the app names and mark them for translations. Use title cased app
+   name.
 
   ::
 
     from django.utils.translation import ugettext_lazy as _ 
 
-    _(u'Auth') 
-    _(u'Sites') 
+    _(u'Auth') # for auth app_name
+    _(u'Sites')
+    _(u'User_Addresses') # for user_addresses app_name
 
 Notes
 -----
