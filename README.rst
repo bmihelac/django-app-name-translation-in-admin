@@ -35,10 +35,10 @@ Notes
 
 Related tickets:
 
-* `Ticket #3591 add support for custom app_label and verbose_name<https://code.djangoproject.com/ticket/3591>`_.
+* `Ticket #3591 add support for custom app_label and verbose_name <https://code.djangoproject.com/ticket/3591>`_.
   When this ticket is resolved, this application would be excessive.
 
-* `Ticket #10436 - Application names i18n in the admin app broken<https://code.djangoproject.com/ticket/10436>`_
+* `Ticket #10436 - Application names i18n in the admin app broken <https://code.djangoproject.com/ticket/10436>`_
 
 * this `thread <https://groups.google.com/d/msg/django-users/-Py-JeMyfF0/lm7lgzlyWu8J>`_
 
