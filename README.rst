@@ -4,7 +4,7 @@ Django app name translation in admin
 
 This application allows translation of application names in the admin interface.
 
-Works with Django 1.3.1.
+Works with Django 1.3.x (for Django 1.4.x, use ``next`` branch).
 
 Configuration and usage
 -----------------------
