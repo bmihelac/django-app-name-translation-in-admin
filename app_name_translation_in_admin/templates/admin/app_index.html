@@ -8,10 +8,19 @@
 <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
 &rsaquo;
 {% for app in app_list %}
-{% blocktrans with app.name as name %}{{ name }}{% endblocktrans %}
+{% trans app.name %}
 {% endfor %}
+
 </div>
 {% endblock %}
 {% endif %}
+
+{% block content_title %}
+{% for app in app_list %}
+{% if forloop.last %}
+<h1>{% trans app.name %}</h1>
+{% endif %}
+{% endfor %}
+{% endblock %}
 
 {% block sidebar %}{% endblock %}

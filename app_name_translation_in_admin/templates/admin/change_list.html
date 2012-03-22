@@ -2,6 +2,7 @@
 {% load i18n admin_static admin_list %}
 {% load url from future %}
 {% load admin_urls %}
+{% load i18n_app %}
 
 {% block extrastyle %}
   {{ block.super }}
@@ -41,7 +42,7 @@
 {% block breadcrumbs %}
 <div class="breadcrumbs">
 <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
-&rsaquo; <a href="{% url 'admin:app_list' app_label=cl.opts.app_label %}">{{ app_label|capfirst|escape }}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label=cl.opts.app_label %}">{{ app_label|trans_app }}</a>
 &rsaquo; {{ cl.opts.verbose_name_plural|capfirst }}
 </div>
 {% endblock %}
