@@ -6,6 +6,19 @@ This application allows translation of application names in the admin interface.
 
 Works with Django 1.3.x (for Django 1.4.x, use ``next`` branch).
 
+Installation
+------------
+
+Using pip, you can install from the git repo.
+
+For Django 1.4.x (using ``next`` branch):
+
+    pip install git+git://github.com/bmihelac/django-app-name-translation-in-admin.git@next
+
+Previous versions (using ``master`` branch):
+
+    pip install git+git://github.com/bmihelac/django-app-name-translation-in-admin.git@master
+
 Configuration and usage
 -----------------------
 
